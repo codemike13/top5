@@ -1,0 +1,28 @@
+@keyframes growshrink {
+    10%{border: 12px solid black;
+  border-radius: 50px;}
+    20%{border: 12px solid black;
+  border-radius: 50px;}
+    30%{border: 12px solid black;
+  border-radius: 50px;}
+    40%{border: 12px solid black;
+  border-radius: 50px;}
+    50%{border: 12px solid black;
+  border-radius: 50px;}
+    60%{border: 12px solid black;
+  border-radius: 50px;}
+    70%{border: 12px solid black;
+  border-radius: 50px;}
+    80%{border: 12px solid black;
+  border-radius: 50px;}
+    90%{border: 12px solid black;
+  border-radius: 50px;}
+    100%{border: 12px solid black;
+  border-radius: 50px;}
+}
+
+div {
+  border: 12px solid black;
+  border-radius: 50px;
+  animation:growshrink 10s infinite;
+}
