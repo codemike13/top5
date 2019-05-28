@@ -1,28 +1,127 @@
-@keyframes growshrink {
-    10%{border: 12px solid black;
-  border-radius: 50px;}
-    20%{border: 12px solid black;
-  border-radius: 50px;}
-    30%{border: 12px solid black;
-  border-radius: 50px;}
-    40%{border: 12px solid black;
-  border-radius: 50px;}
-    50%{border: 12px solid black;
-  border-radius: 50px;}
-    60%{border: 12px solid black;
-  border-radius: 50px;}
-    70%{border: 12px solid black;
-  border-radius: 50px;}
-    80%{border: 12px solid black;
-  border-radius: 50px;}
-    90%{border: 12px solid black;
-  border-radius: 50px;}
-    100%{border: 12px solid black;
-  border-radius: 50px;}
+body{
+  background:black
+}
+div {
+  padding-top: 30px;
+  margin-top: center;
+  margin-left: 40px;
+  margin-right: 40px;
+  position: relative;
+  text-align: center;
+  overflow: auto;
+   background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(https://i.pinimg.com/originals/40/7c/eb/407cebfd19ec74ac8c055c647dcd7173.jpg);
+  
 }
 
-div {
-  border: 12px solid black;
-  border-radius: 50px;
-  animation:growshrink 10s infinite;
+.shadow{
+  text-shadow: 5px 5px rgba(0, 0, 0, 0.8);
+  font-family: fantasy;
+  font-size: 70px
+}
+
+a {
+ color:white;
+ font-family: fantasy
+ 
+}
+
+.div1:hover,
+.div2:hover,
+.div3:hover,
+.div4:hover,
+.div5:hover {
+  background-position: right;
+  font-size: 30px;
+  background-size: 0px 0px;
+  transform: rotate(360deg);
+  background: rgba(0, 0, 0, 0.8)
+}
+
+.hold{
+  font-size: 60px;
+  font-family: fantasy;
+  
+}
+.div1 {
+  border-radius: 15px;
+  font-size: 0px;
+  width: 300px;
+  height: 75px;
+  background-position: left;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  display: inline-block;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url(https://media1.giphy.com/media/3oKIPmHcb6YSrcIDIY/giphy.gif);
+  transition: background-position 2s, transform 1s, background-size 2s,
+    background-color 2s;
+}
+
+.div2 {
+  border-radius: 15px;
+
+  font-size: 0px;
+  width: 300px;
+  height: 75px;
+  font-size: 0px;
+  background-position: left;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  display: inline-block;
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+  background-image: url(https://media1.tenor.com/images/dbda5cf92e6c62547c096c1d29104074/tenor.gif?itemid=5021074);
+  transition: background-position 2s, transform 1s, background-size 2s;
+}
+.div3 {
+  border-radius: 15px;
+
+  font-size: 0px;
+  width: 300px;
+  height: 75px;
+  font-size: 0px;
+  background-position: left;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  display: inline-block;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url(https://i.pinimg.com/originals/c8/91/d5/c891d5c0eba6ab3e304f8174a7c0e406.gif);
+  transition: background-position 2s, transform 1s, background-size 2s;
+}
+.div4 {
+  border-radius: 15px;
+
+  font-size: 0px;
+  width: 300px;
+  height: 75px;
+  font-size: 0px;
+  background-position: left;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  display: inline-block;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url(https://media1.giphy.com/media/l0Ex4QcCSbOi8UAow/giphy.gif);
+  transition: background-position 2s, transform 1s, background-size 2s;
+}
+.div5 {
+  border-radius: 15px;
+
+  font-size: 0px;
+  width: 300px;
+  height: 75px;
+  font-size: 0px;
+  background-position: left;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  display: inline-block;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url(https://media1.giphy.com/media/l41lFvtuqmey9QTAY/giphy.gif);
+  transition: background-position 2s, transform 1s, background-size 2s;
 }
