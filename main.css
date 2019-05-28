@@ -1,5 +1,5 @@
-body{
-  background:black
+body {
+  background: black;
 }
 div {
   padding-top: 30px;
@@ -9,22 +9,36 @@ div {
   position: relative;
   text-align: center;
   overflow: auto;
-   background-size: cover;
+  background-size: cover;
   background-repeat: no-repeat;
   background-image: url(https://i.pinimg.com/originals/40/7c/eb/407cebfd19ec74ac8c055c647dcd7173.jpg);
-  
 }
-
-.shadow{
+@keyframes colorwheel {
+  25% {
+    color: red;
+    font-size: 65px;
+    text-shadow: 10px 15px  rgba(0, 0, 0, 0.8);;
+  }
+  50% {
+    color: white;
+    
+  }
+  75% {
+    color: blue;
+    
+  }
+}
+.shadow {
   text-shadow: 5px 5px rgba(0, 0, 0, 0.8);
   font-family: fantasy;
-  font-size: 70px
+  font-size: 70px;
+  animation: colorwheel 9s infinite;
+  margin-bottom: 0px;
 }
 
 a {
- color:white;
- font-family: fantasy
- 
+  color: white;
+  font-family: fantasy;
 }
 
 .div1:hover,
@@ -36,13 +50,12 @@ a {
   font-size: 30px;
   background-size: 0px 0px;
   transform: rotate(360deg);
-  background: rgba(0, 0, 0, 0.8)
+  background: rgba(0, 0, 0, 0.8);
 }
 
-.hold{
+.hold {
   font-size: 60px;
   font-family: fantasy;
-  
 }
 .div1 {
   border-radius: 15px;

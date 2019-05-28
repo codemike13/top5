@@ -1,11 +1,12 @@
 body {
   background-color: rgba(0, 0, 0, 0.93);
+ 
 }
 
 a {
   font-size: 30px;
   color: white;
-  transition: margin-left 2s;
+  transition: margin-left 6s, font-family 6s;
 }
 a:hover {
   margin-left: 200px;
@@ -19,15 +20,60 @@ li {
   border: 2px solid rgba(20, 10, 90, 0.8);
   border-radius: 30px;
   transition: border 2s, border-radius 2s;
+  margin-bottom:20px;
 }
 
 li:hover {
   border: 9px solid rgba(30, 5, 90, 0.8);
   border-radius: 50px;
-  background: rgba(255, 100, 100, 0.3);
+  background: white;
 }
 
 ul {
+    border: 8px solid rgba(20, 10, 90, 0.6);
+    border-radius:30px;
   font-size: 40px;
   color: blue;
+  margin-left:5px;
+  list-style: none;
+ margin-left:67px;
+ 
+}
+@keyframes colorwheel {
+  25% {
+    color: red;
+   border: 8px solid rgba(50, 0, 0, 0.75);
+    text-shadow: 10px 15px rgba(0, 0, 0, 0.8);
+    width:37.5px;
+    font-size:30px ;
+  }
+  50% {
+    color: white;
+    border: 8px solid rgba(50, 0, 0, 0.50);
+    width:40px;
+    font-size:25px ;
+  }
+  75% {
+    color: blue;
+    border: 8px solid rgba(50, 0, 0, 0.25);
+    width:45px;
+    font-size:20px ;
+  }
+}
+
+.border{
+    border:8px solid red;
+    border-radius: 20px;
+    color:purple;
+   text-orientation: upright;
+   writing-mode: vertical-lr;
+   font-size:35px ;
+   width: 50px;
+   height: 400px;
+  float:left;
+  font-family:Arial Black;
+  font-weight:;
+  
+  animation:colorwheel 9s linear;
+
 }
